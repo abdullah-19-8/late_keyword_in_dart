@@ -11,6 +11,6 @@ void main(List<String> args) {
 }
 
 String getName() {
-  print('inside the function');
+  print('this is inside the function');
   return "John";
 }

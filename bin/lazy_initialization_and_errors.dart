@@ -10,6 +10,7 @@ late String name; // this is a lazy initialization
 void main(List<String> args) {
   // if we try to print the variable, we get an exception
   try{ // we use a try-catch block to catch the exception, and print it, instead of crashing the program
+  // if you don't know what try-catch is, you can avoid it for now.
     print(name); // Exception: LateInitializationError: Field 'name' has not been initialized.
   } catch(e){
     print(e);
